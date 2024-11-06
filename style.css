@@ -1,0 +1,164 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Start Style */
+body{
+    font: 16px/28px courier, monospace;
+    background-color: #eaeaea;
+    color: white;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.main{
+    height: 650px;
+    background-image: url(tolire.jpg);
+    background-size: cover;
+    background-position: 0 -400px;
+}
+.header{
+    padding: 5px;
+    height: 20px;
+}
+
+.header .judul{
+    font-size: 20px;
+    color: brown;
+    font-weight: bold;
+    float: left;
+    margin-right: 510px;
+}
+
+.header ul li{
+    margin-right: 3px;
+    float: left;
+}
+
+.header a {
+    text-decoration: none;
+    color: brown;
+    padding: 5px;
+}
+
+.header a:hover{
+    color: white;
+}
+
+.header h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 300px;
+    color: white;
+    font-weight: bold;
+}
+.header p{
+    margin-left: 185px;
+    margin-right: 150px;
+    padding: 10px;
+}
+
+
+.navigation{
+    height: 650px;
+    background-image: url(us.jpg);
+    background-size: cover;
+    
+}
+
+.navigation h1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    line-height: 30px;
+}
+.navigation ul li{
+    display:inline-block;
+    padding-top: 500px;
+    margin-left: 70px;
+    
+    
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.navigation a:hover {
+    color: blue;
+}
+
+.footer{
+    height: 650px;
+    border-bottom: 5px solid;
+    background-image: url(ganteng.jpg);
+    background-size: cover;
+    background-position: 0 -90px;
+}
+.footer h1{
+    
+    padding:30px;
+    font-size: 40px;
+    font-family: fantasy;
+    font-style: italic;
+    text-align: center;
+}
+.footer img{
+    width: 200px;
+    height: 250px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    float: left;
+}
+
